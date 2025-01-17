@@ -55,10 +55,10 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            Website->
-            Support->
-            Wiki->
-            Forum->
+            Website->https://ve3lsr.ca/
+            Support->https://support.ve3lsr.ca/servicedesk/customer/portal/1
+            Wiki->https://wiki.ve3lsr.ca
+            Forum->https://forum.ve3lsr.ca/login
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
